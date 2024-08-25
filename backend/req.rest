@@ -1,0 +1,19 @@
+GET http://localhost:5000/product/
+
+###
+GET http://localhost:5000/product/1
+
+
+###
+DELETE http://localhost:5000/product/1
+
+###
+POST http://localhost:5000/product/
+Content-Type: application/json
+
+{
+    "name" : "Product 1",
+    "image" : "Product 1.png",
+    "price" : 100000
+}
+
